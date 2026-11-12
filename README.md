@@ -1,6 +1,6 @@
 # Text Selection Toolbar
 
-**Bottom line:** Text Selection Toolbar is a small Windows app, now in **Beta**. Select text in almost any app, and a popup instantly shows the word count and character count. It also gives you Copy, Paste and a Change case panel (lowercase, UPPERCASE, Title Case). I built it with Claude Code to stop copying text into random websites just to check its length.
+**Bottom line:** Text Selection Toolbar is a small Windows app, now in **Beta**. Select text in almost any app, and a popup instantly shows the word count and character count. It also gives you Copy, Paste and a Change case panel (lowercase, UPPERCASE, Title Case). I built it with Claude Code to stop copying/pasting text into random websites just to check its length.
 
 ## Where it works
 
@@ -16,21 +16,11 @@ It reads text you select with the mouse, or with Ctrl+A, in other apps. I confir
 | Notion (desktop app) | Works |
 | Notepad | Works |
 
-**Not tested yet:** the installed ChatGPT app, X, LinkedIn app, Grok and other apps. I am testing more apps and will list every exception.
+## About me
 
-**Skipped on purpose:** a few apps where pressing Ctrl+C can mean something else, so the app does not use that fallback there.
+I am Pawan Kushwaha, a final-year B.Tech student at NIT Allahabad and a content creator with 54K+ YouTube subscribers. I build tools with AI, and I share what I learn in public.
 
-- File Explorer
-- Windows Terminal, PowerShell and the command prompt
-- Excel
-- Premiere Pro
-- Screenshot tools such as Snipping Tool
-
-**May not work:** apps running as administrator, and some games.
-
-No tool can work in literally every app. This one aims at the apps I use every day.
-
-## Links
+## Relevant Links
 
 | What | Where |
 |---|---|
@@ -108,10 +98,9 @@ It was a small task, but it was manual, it broke my focus, and it happened many 
 - **Ctrl+A support is the newest feature.** It is still being tested.
 - **Title Case turns "iPhone" into "Iphone".** It lowercases words first so ALL CAPS text converts well.
 - **The Change case panel only copies the result.** It does not replace the selected text in the other app yet.
-- **There is no guard against opening the app twice.** A second copy gives two popups.
 - **The popup can look off at some display scales.** I fixed this for 200% scaling and keep testing others.
 
-## Not built yet
+## Yet to build
 
 These are ideas, not promises.
 
@@ -167,10 +156,6 @@ The first version took about 2.5 hours of building and testing. I tested layout,
 - **Fixing problems on real screens.** Real screenshots and logs showed issues that tests missed.
 - **Making privacy choices clear.** I list exactly what the app watches and stores.
 - **Keeping the first version small.** Extra features waited until the basics worked.
-
-## About me
-
-I am Pawan Kushwaha, a final-year B.Tech student at NIT Allahabad and a content creator with 54K+ YouTube subscribers. I build tools with AI, and I share what I learn in public.
 
 ## About this repo
 
